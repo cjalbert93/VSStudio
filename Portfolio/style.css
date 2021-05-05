@@ -44,6 +44,10 @@ h3{
   margin: auto;
 }
 
+#back{
+  background-color: lightgray;
+}
+
 .main {
     background-color: #ffc200;
 }
@@ -97,7 +101,7 @@ font-size: 30px;
 
 /*Banner Section*/
 .banner {
-  background-color: #333;
+  background-color: rgb(0, 0, 0);
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -106,7 +110,7 @@ font-size: 30px;
 }
 
 .banner:hover {
-  background-color: black;
+  background-color: rgb(109, 0, 0);
 }
 
 /*Expertise Section*/
@@ -146,5 +150,13 @@ font-size: 30px;
   font-size:12px;
   margin-bottom: 0;
   margin-left: 20px;
+}
+
+#back{
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 20px 20px;
+  color:black;
 }
 

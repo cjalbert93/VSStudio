@@ -1,0 +1,38 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    flex-direction: column;
+    border:20px;
+  }
+
+#header {
+    padding: 40px 40px 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    align-items: right;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+
+  }
+
+/*Footer Section*/
+.footer {
+  padding: 60px 0px;
+
+  background-color: #000;
+  color: #fff;
+}
+
+.footer h3 {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.footer p {
+  font-size:12px;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
