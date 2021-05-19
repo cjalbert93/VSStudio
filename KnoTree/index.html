@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        TRAINSET
+    </title>
+    <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet'
+        type='text/css'>
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .collapsible {
+            background-color: #777;
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 25px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .active,
+        .collapsible:hover {
+            background-color: #555;
+        }
+
+        .content {
+            padding: 0 18px;
+            display: none;
+            overflow: hidden;
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="banner">
+        <div class="container">
+
+            <img src="logo12.png">
+        </div>
+
+    </div>
+
+
+    <button type="button" class="collapsible">About Us</button>
+    <div class="content">
+        <h3>What?</h3>
+        <p>TRAINSET is an interactive 3D Library equip with a variety of personal development tools. It is our intention
+            to continuously update the models towards ever increasing levels of complexity. The models were designed as
+            interactions between three dimensional
+            objects because cross culturally humans brains can deeply process this information.
+        </p>
+        <h3>Why?</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.</p>
+    </div>
+    <button type="button" class="collapsible">How to Use</button>
+    <div class="content">
+        <h3>What?</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.</p>
+        <h3>Why?</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.</p>
+    </div>
+    <br>
+    <div>
+
+        <img src="Gen 15.png" class="margins" id=border>
+    </div>
+    <h2>Where</h2>
+    <button type="button" class="collapsible">Open Section 1</button>
+    <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.</p>
+    </div>
+    <button type="button" class="collapsible">Open Section 2</button>
+    <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.</p>
+    </div>
+    <button type="button" class="collapsible">Open Section 3</button>
+    <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.</p>
+    </div>
+    <button type="button" class="collapsible">Open Section 4</button>
+    <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.</p>
+    </div>
+    <div id="black">
+    </div><br>
+    <div class="container">
+        <button class="btn">Button</button>
+        <button class="btn">Button</button>
+        <button class="btn">Button</button>
+        <button class="btn">Button</button>
+    </div>
+    <br>
+
+    </div>
+    <div>
+        <br>
+
+        <img src="/Animate-ANIMATION.gif"/ class="margins" id=border>
+        <br>
+        <br>
+        <br>
+    </div>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row text-center">
+                <p>
+                    &copy; 2021 | MADE ROBOTICS LLC
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

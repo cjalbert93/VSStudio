@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+
+body {
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #2A3137;
+  color: black;
+}
+
+* {
+  font-family: "Montserrat", sans-serif !important;
+  box-sizing: content-box;
+}
+
+#back {
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 20px 20px;
+  color: black;
+}
+
+
+#banner {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  padding: 0px 250px 0px 250px;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.header {
+  padding: 0px 0px 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  align-items: left;
+  color: rgb(25, 253, 177);
+  font-size: 25px;
+
+}
+
+#header {
+  padding: 0px 0px 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  align-items: left;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+
+}
+
+.margins {
+  margin: 0px 20px;
+  height: 487px;
+  width: 1413px;
+}
+
+/*Footer Section*/
+.footer {
+  padding: 60px 0px;
+  background-color: #000;
+  color: #fff;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.footer h3 {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.footer p {
+  font-size: 12px;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+
+h1 {
+  font-size: 100px;
+  font-style: italic
+}
+
+h2 {
+  font-size: 20px;
+}
+
+#border {
+  border-width: 20px;
+  border-style: double;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+#back9 {
+background-color: gray;
+}
+
+#black{
+  background-color: black;
+}
