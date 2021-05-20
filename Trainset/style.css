@@ -4,7 +4,8 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #152838;
+    /* background-color: #152838; */
+    background: radial-gradient(circle, rgba(2,0,36,0.9026961126247374) 8%, rgba(0,212,255,1) 51%, rgba(23,23,96,1) 90%);
     color: black;
     margin-left: 10%;
     margin-right: 10%;
@@ -45,7 +46,7 @@ body {
 
 .margins {
     margin: 0px 0px 0px 0px;
-    width: 98%;
+    width: 88%;
     height: auto;
 
 }
@@ -53,6 +54,7 @@ body {
 #border {
     border-width: 20px;
     border-style: double;
+
 }
 
 h1 {
