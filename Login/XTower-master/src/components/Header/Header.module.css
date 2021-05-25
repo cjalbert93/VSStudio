@@ -1,0 +1,42 @@
+.Header {
+    padding: 0 15px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: lightgray; 
+    box-shadow: 3px 3px 5px  gray;
+
+}
+
+.Header > nav > ul {
+    display: flex; 
+    list-style: none; 
+    margin-right: 15px; 
+    font-size: 15px; 
+ 
+}
+
+.Header > nav > ul li {
+    margin-top: 15px;
+    margin-right: 15px; 
+    font-size: 15px; 
+
+}
+
+.Header a {
+    text-decoration: none;
+    color: black
+}
+
+.Login {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+   
+    50% {
+      opacity: 0.5;
+    
+    }
+  }
+
