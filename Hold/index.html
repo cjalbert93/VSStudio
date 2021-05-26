@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XTOWER: VISUAL TOOLKIT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="banner">
+
+            <h1><img src="./Pictures/LogoH.png" class="logosize2" width="100px" height="100px">Navigation : Search :
+                Sign Up : Login <a href="./index.html">Home</a> : <a href="./Profile.html">Profile</a> : <a
+                    href="./new.html">new</a></h1>
+        </div>
+    </div>
+
+
+    <button type="button" class="collapsible">+ About Us</button>
+    <div class="content">
+        <h3>Why?</h3>
+        <p>"As a visual learner, I struggled
+            through more than two decades of
+            formal education in the sciences. During this process, I discovered the incredibly powerful capacity
+            for the brain
+            to understand concepts represented by moving objects.
+
+            <br>
+            <br>
+            Ultimately, I discovered that the world lacks a dynamic library, so I got busy building one.
+            <br>
+            <br>
+            I am proud to
+            welcome you early explorers to my humble
+            endeavor. I hope you leave this place better than you came."
+        </p>
+        <h4>-Colin.</h4>
+        <h4>-Founder and CEO</h4>
+    </div>
+    <button type="button" class="collapsible">+ What is XTOWER?</button>
+    <div class="content">
+        <h3>What?</h3>
+        <p>
+            XTOWER is a library of dynamic tools and information built on a game-like leveling system. It is
+            equip with a variety of
+            amazing
+            learning tools like our Lv. 0 Reality Matrix. XTOWER is free but requires
+            an account if you want to keep track of your courses, awards and leveling.
+        </p>
+        <img src="./Pictures/Treematrix-ANIMATION.gif" class="margins" id="border">
+
+    </div>
+    <button type="button" class="collapsible">+ How to Use</button>
+    <div class="content">
+        <p>XTOWER was built as a 3-dimensional tower which uses a grid and leveling system to organize layers of tools
+            and information.
+
+            <br>
+            <br>
+            The Lv. 0 Introductions are for Everyone and build the foundation for the entire learning process. No matter
+            where you are
+            in your education, we highly recommend taking all Lv. 0 courses before anything else.
+            <br>
+            <br>
+            Below are your Masteries and Trophies
+            for completing
+            the various layers and their challenges.
+            <img src="./Pictures/Trophys (1).png" id="border" width="90%" height="auto">
+            <br>
+            <br>
+            If you are looking for any specific topic, you can use the search bar above to go directly to those topic
+            levels.
+            Otherwise, we strongly urge you to start from the bottom and take your time to enjoy the adventure that is
+            learning.
+        </p>
+
+    </div>
+    <br>
+    <!-- <div>
+        <img src="./Pictures/LogoH.png" class="logosize">
+
+    </div> -->
+
+    <h1 id="Overview">Welcome to The Tower</h1>
+
+
+
+    <img src="./Pictures/ezgif.com-gif-maker.gif" id="border" width="90%" height="auto">
+<br>
+<div>
+    <img src="./Pictures/3obj.png" id="border" width="100%" height="auto">
+
+
+</div>
+
+
+
+
+    <br>
+  
+    <footer id="footer">
+        <div class="container">
+            <div class="row text-center">
+                <p>
+                    &copy; 2021 | XTOWER
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

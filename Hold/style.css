@@ -1,4 +1,7 @@
-body {
+
+html, body {
+    margin: 0px;
+    padding: 0px;
     font-family: 'Times New Roman', Times, serif;
     display: flex;
     align-items: center;
@@ -7,8 +10,7 @@ body {
     /* background-color: #152838; */
     background: radial-gradient(circle, rgba(2,0,36,0.9026961126247374) 8%, rgba(0,212,255,1) 51%, rgba(23,23,96,1) 90%);
     color: black;
-    margin-left: 10%;
-    margin-right: 10%;
+  
 
 }
 
@@ -174,3 +176,23 @@ a {
 	height: 175px;
 	width: 175px;
 }
+
+.container {
+    margin: 0 auto;
+  }
+  
+  /*Banner Section*/
+  .banner {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 750ms;
+  }
+  
+  .banner:hover {
+    background-color: rgb(5, 9, 66);
+  }
+
+ 
