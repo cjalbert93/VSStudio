@@ -21,6 +21,7 @@ h1 {
   text-align: center;
   transition-property: background-color;
   transition-duration: 750ms;
+ 
 }
 
 .banner:hover {
@@ -46,4 +47,45 @@ h1 {
   margin: 0;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.banner5{
+padding-left: 15%;
+background-image: url("./Pictures/ab.jpg");
+margin-top: 0px;
+}
+
+.banner5 h1{
+  font-size: 60px;
+}
+
+.quicklinks{
+  display: flex;
+  flex-direction: column;
+  text-align: column;
+  align-items: column;
+  padding-left: 5%;
+  border: 5px;
+  border-style:solid;
+  padding-right: 5%;
+  margin-left: 5%;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  text-align: column;
+  align-items: column;
+  padding-left: 5%;
+  border: 5px;
+  border-style:solid;
+  padding-right: 5%
+}
+
+.stuff{
+  display: flex;
+  flex-direction: row;
+  text-align: row;
+  align-items: row;
+  margin: 0px;
 }
