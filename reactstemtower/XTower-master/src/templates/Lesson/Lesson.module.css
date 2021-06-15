@@ -1,0 +1,55 @@
+h1 {
+    font-size: 30px;
+    display: inline;
+  }
+  
+  .container {
+    margin: 0 auto;
+  }
+  
+  
+  
+  .links{
+    font-size: 25px;
+  }
+  
+  .Trophies{
+    background-color: white;
+    text-align: center;
+    border-width: 5px;
+    border-style: solid;
+  }
+  
+  
+  .banner5{
+  padding-left: 15%;
+  /* background-image: url("./Pictures/ab.jpg"); */
+  margin-top: 0px;
+  }
+  
+  .banner5 h1{
+    font-size: 60px;
+  }
+  
+  .quicklinks{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 30px;
+  }
+  
+  .content{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    padding: 2%;
+    margin: 2%;
+  }
+  
+  .stuff{
+    display: flex;
+    flex-direction: row;
+    text-align: row;
+    align-items: row;
+    margin: 0px;
+  }
